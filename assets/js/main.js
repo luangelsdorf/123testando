@@ -1,5 +1,5 @@
 $(document).ready(function() {
     $('#eye').click(function(e) {
-        $('#senha').trigger('select');
+        $('#senha').trigger('click');
     });
 });
