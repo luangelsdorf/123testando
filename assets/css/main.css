@@ -57,3 +57,7 @@ input::-ms-reveal, input::-ms-clear {
 #eye {
     cursor: pointer;
 }
+
+a.text-white:hover, a.text-white:focus {
+    color: #fff !important;
+}
