@@ -58,6 +58,13 @@ input::-ms-reveal, input::-ms-clear {
     cursor: pointer;
 }
 
-a.text-white:hover, a.text-white:focus {
-    color: #fff !important;
+.btn-outline-primary {
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+}
+
+.btn-outline-primary:hover {
+    background: linear-gradient(50deg, #6e00ff 0, #bb00ff 100%);
+    border-color: transparent;
 }
